@@ -1,0 +1,80 @@
+#footer{
+    width:100%;
+    height:400px;
+    background-color:rgb(250, 241, 237)
+}
+#main{
+    display:flex;
+    width:80%;
+    height:250px;
+    margin:15px auto auto auto;
+}
+#upper_left{
+    display:flex;
+    width:70%;
+    height:200px;
+    gap:40px;
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-size: 14px;
+}
+#upper_right{
+    width:30%;
+    height:200px;
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+}
+#left_one{
+    margin-left: 10px;
+}
+#lower{
+    display:flex;
+    width:80%;
+    height:100px;
+    margin:20px auto auto auto;
+}
+#lower_left{
+    width:60%;
+}
+#lower_left_upper{
+    display:flex;
+    height:60px;
+}
+#lower_left_lower{
+    display:flex;
+    height:35px;
+}
+#lower_left_upper_left{
+    width:9%;
+    height:100%;
+}
+#lower_left_upper_left>img{
+    width:100%;
+    height:100%;
+}
+#lower_left_upper_right{
+    width:100%;
+}
+#lower_left_upper_right_upper{
+    display:flex;
+    height:25px;
+    margin-left:10px;
+    font-size: 12px;
+    align-items: center;
+}
+#lower_left_upper_right_lower{
+    display:flex;
+    gap:15px;
+    margin-left:10px;
+    height:30px;
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+    font-size: 13px;
+    align-items: center;
+    text-decoration:underline;
+    cursor: pointer;
+}
+#lower_left_lower{
+    display:flex;
+    font-size: 12px;
+    align-items: center;
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+}
+
